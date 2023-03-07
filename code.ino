@@ -54,5 +54,5 @@ bot.updateToken(BOTtoken);
 
 void loop() {
 // Check for new messages
-bot.getUpdates(0L); // Hapus &handleNewMessages dan beri 0L
+bot.getUpdates(0L);
 }
