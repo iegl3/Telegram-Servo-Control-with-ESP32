@@ -43,7 +43,7 @@ servo.attach(2); // Pin D4
 WiFi.begin(ssid, password);
 while (WiFi.status() != WL_CONNECTED) {
 delay(500);
-Serial.print(".");
+Serial.print("Connecting to Wifi");
 }
 Serial.println("");
 Serial.println("WiFi connected");
